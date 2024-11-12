@@ -1,0 +1,6 @@
+661ec22134049Franzoesisch_shT1713291809
+Hund;chat;0;0
+Katze;chien;0;0
+Auto;voiture;0;0
+blume;fleur;0;0
+hase;lapin;0;0

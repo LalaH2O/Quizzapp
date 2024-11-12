@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create a new Translation</title>
+    <link rel="stylesheet" href="add_word_html.css">
+</head>
+<body>
+    <h1>Create a new Translation</h1>
+    <div id="translationForm">
+        <form action="https://lassehelbling.ch/api/transalator/add_word_api.php" method="get">
+            <label for="originalWord">Word</label><br>
+            <textarea rows="4" id="originalWord" name="originalWord" placeholder="Separate words by new lines"></textarea><br>
+            <label for="translation">Translation</label><br>
+            <textarea rows="4" id="translation" name="translation" placeholder="Remember to put the translation in the same line as the original"></textarea><br>
+            <input id="name" name="name" placeholder="Name"><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
